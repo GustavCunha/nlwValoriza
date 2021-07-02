@@ -1,29 +1,20 @@
-import { 
+import {
     Column, 
     CreateDateColumn, 
     Entity, 
     PrimaryColumn, 
-    UpdateDateColumn 
-} from 'typeorm';
-import { v4 as uuid } from 'uuid';
+    UpdateDateColumn
+} from "typeorm";
 
-@Entity("users")
-class User {
-    
+import { v4 as uuid } from "uuid";
+
+@Entity("tags")
+class Tag {
     @PrimaryColumn()
     readonly id: string;
 
     @Column()
     name: string;
-
-    @Column()
-    email: string;
-
-    @Column()
-    admin: boolean;
-
-    @Column()
-    password: string;
 
     @CreateDateColumn()
     created_at: Date;
@@ -32,10 +23,10 @@ class User {
     updated_at: Date;
 
     constructor() {
-        if(!this.id) {
+        if (!this.id) {
             this.id = uuid();
         }
     }
 }
 
-export {User};
+export { Tag };
