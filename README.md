@@ -26,3 +26,9 @@ Por fim, a aplicação estará disponível em `http://localhost:3000`
 
 Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, apresentado por **[@Rocketseat](https://github.com/Rocketseat)** de 20 a 28 de Junho de 2021.
 Através desse treinamento da Rocketseat, pude aprender novos aspectos do NodeJs e pretendo criar novas funcionalidades nesta api, ou a partir do mesmo elaborar novas ideias para um projeto futuro!
+
+## 📝 Melhorias
+
+[] - Notificações por email
+[] - Criar app mobile e integrar com a API
+[] - Tratamento de erros customizáveis
